@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+
+<html>
+    <body>
+        <h1>Cookie Dough</h1>
+        <p>You clicked <span id="counter"></span> times</p>
+        
+        <button id="cookie_clicker" onClick="console.log('clicked')">
+            Add <span id="add_how_much"></span> Cookie/s
+        </button>
+
+        <button id="one_more?" onClick="console.log('one more?')">
+            <p>get <span id="one_more!"></span> + 1 Cookie per Click - next step every 25 cookies</p>
+        </button>
+    
+        <script>
+            let x = 0
+            let y = 1
+            
+            
+            document.getElementById("add_how_much").innerHTML = y
+            
+            document.getElementById("cookie_clicker").addEventListener("click", iterate)
+            document.getElementById("one_more?").addEventListener("click", more_cookies)
+            
+            function iterate(){
+                x += y
+                console.log(x)
+                document.getElementById("counter").innerHTML = x
+            }
+            //add more Cookies with one Click
+            
+            //Problem: if "if-statement" from func.: more_cookies reached, y can grow without hesitation 
+            function more_cookies(){
+                
+                if (x > 25){
+                    y += 1
+                    console.log(y)
+                }
+                else {
+                alert("not enough cookies you dummy")
+                }
+                document.getElementById("one_more!").innerHTML = y + 1
+                document.getElementById("add_how_much").innerHTML = y
+            }
+        </script>
+    </body>
+</html>

@@ -7,7 +7,7 @@ git commit // message schreiben für den commit
 git push origin main // den commit auf main pushen
 git pull origin main // änderungen die im repo sind, aber nicht bei dir, ziehen
 git checkout . // alles zurücksetzen
-git status // gucken was sache ist, most used command
+git status // as Sache ist, most used command
 
 
 
