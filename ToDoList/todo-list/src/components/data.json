@@ -5,7 +5,8 @@
   }, {
     "id": 2,
     "task": "Do laundry",
-    "complete": true
+    "complete": true,
+    "gay": true
   }, {
     "id": 3,
     "task": "Vacuum floor",

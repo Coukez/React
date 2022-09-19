@@ -1,19 +1,16 @@
-import React, { useState } from 'react';
-import './App.css';
-import Header from './Header/Header';
-import data from './data.json';
-import ToDoList from './ToDo(List)/ToDoList';
-
+import React, { useState } from 'react'
+import './App.css'
+import Header from './Header/Header'
+import data from './data.json'
+import ToDoList from './todo/ToDoList'
 
 function App() {
-  const [toDoList, setToDoList] = useState(data);
-
   return (
     <div className="App">
       <Header />
-      <ToDoList toDoList = {toDoList}/>
+      <ToDoList data={data} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
