@@ -1,0 +1,22 @@
+[
+  {
+    "id": "3d20a78c-4337-591b-a1cd-ad3373f4dea1",
+    "title": "Mach mal eine Liste von allen Todos untereinander mit checkbox ob sie erledigt sind oder nicht, dann meldest dich wieder du kek.",
+    "done": false
+  },
+  {
+    "id": "3d20a78c-4337-591b-a1cd-ad3373f4dea1",
+    "title": "Mach deine Hausaufgaben",
+    "done": false
+  },
+  {
+    "id": "05705958-6da7-592d-a3cb-77cd633a107b",
+    "title": "Charlize anrufen",
+    "done": false
+  },
+  {
+    "id": "00d2aa20-3ee7-5408-a79e-a8a05feda7ec",
+    "title": "Richtig schlecht sein in Rocket League",
+    "done": true
+  }
+]
